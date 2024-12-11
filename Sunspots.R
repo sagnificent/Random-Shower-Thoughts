@@ -1,3 +1,4 @@
+#this specific code snippet calculates the no of sunspots both yearly and monthly from 1818 to 2019. The data has been taken from https://www.kaggle.com/datasets/abhinand05/daily-sun-spot-data-1818-to-2019 . One can plot the sunspot count against the years and months and draw conclusions.
 library(dplyr)
 install.packages("pacman")
 pacman::p_load(pacman, rio)
