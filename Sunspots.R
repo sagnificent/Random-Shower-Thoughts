@@ -1,7 +1,7 @@
 library(dplyr)
 install.packages("pacman")
 pacman::p_load(pacman, rio)
-sunspots_csv <- import("//Users//sagnikroy//Documents//My Works//R Projects//SunSpots//sunspot_data.csv")
+sunspots_csv <- import("sunspot_data.csv")
 head(sunspots_csv)
 sunspots_csv$`Number of Sunspots`[sunspots_csv$`Number of Sunspots` == -1] <- 0 #converts all -1 values to 0 for summing
 vec <- c()
